@@ -1,0 +1,2 @@
+# twrp-kg6p
+TWRP DEVICE TREE FOR KG6P
