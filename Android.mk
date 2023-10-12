@@ -1,10 +1,12 @@
-# Android device tree for TECNO TECNO KG6p (TECNO-KG6P)
-
-```
 #
 # Copyright (C) 2023 The Android Open Source Project
 # Copyright (C) 2023 SebaUbuntu's TWRP device tree generator
 #
 # SPDX-License-Identifier: Apache-2.0
 #
-```
+
+LOCAL_PATH := $(call my-dir)
+
+ifeq ($(TARGET_DEVICE),TECNO-KG6P)
+include $(call all-subdir-makefiles,$(LOCAL_PATH))
+endif
